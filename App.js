@@ -1,20 +1,32 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+// App.js
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import AppNavigator from './AppNavigator';
+import Motivate from './pages/Motivate';
+import FoodRecipe from './pages/DoaScreen';
+import DetailDoa from './pages/DetailDoa';
 
-export default function App() {
+
+const Stack = createStackNavigator();
+
+const MainNavigator = () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Stack.Navigator>
+      <Stack.Screen name="The Incridible Of Doa" component={AppNavigator} />
+      <Stack.Screen name="Motivate" component={Motivate} />
+      <Stack.Screen name="FoodRecipe" component={FoodRecipe} />
+      <Stack.Screen name="DetailDoa" component={DetailDoa} />
+    </Stack.Navigator>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+const App = () => {
+  return (
+    <NavigationContainer>
+      <MainNavigator />
+    </NavigationContainer>
+  );
+};
+
+export default App;
