@@ -12,9 +12,9 @@ const MainNavigator = () => {
   return (
     <Stack.Navigator>
       <Stack.Screen name="Screen3" component={Screen3} options={{ title: 'Main Menu' }} />
-      <Stack.Screen name="Motivate" component={Motivate} options={{ title: 'Tips Menaikan Berat Badan' }} />
-      <Stack.Screen name="KumpulanDoa" component={DoaScreen} options={{ title: 'Resep Sukses' }} />
-      <Stack.Screen name="Detail DOA" component={DetailDoa} options={{ title: 'Resep Sukses' }} />
+      <Stack.Screen name="Motivate" component={Motivate} options={{ title: ' ' }} />
+      <Stack.Screen name="KumpulanDoa" component={DoaScreen} options={{ title: ' ' }} />
+      <Stack.Screen name="Detail DOA" component={DetailDoa} options={{ title: ' ' }} />
     </Stack.Navigator>
   );
 };

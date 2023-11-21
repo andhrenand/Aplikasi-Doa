@@ -6,15 +6,35 @@ const Motivate = () => {
     <View style={styles.container}>
       <Text style={styles.title}>Manfaat Berdoa</Text>
       <Text style={styles.tip}>
-        1. Konsumsi makanan yang kaya akan kalori, seperti kacang-kacangan, dan biji Niko, alpukat, dan susu Adit.
+        1. Menenangkan hati.
       </Text>
       <Text style={styles.tip}>
-        2. Lakukan latihan kekuatan, seperti angkat beban kehidupan, untuk membangun otot dan urat.
+        2. Segala urusannya dimudahkan dan diberkahi oleh Allah SWT.
       </Text>
       <Text style={styles.tip}>
-        3. Tambahkan camilan sehat antara waktu makan utama Anda.
+        3. Meningkatkan Kualitas Hidup.
       </Text>
-      {/* Tambahkan tips menaikan berat badan lainnya */}
+      <Text style={styles.tip}>
+       
+      </Text>
+      <Text style={styles.title}>
+        Waktu-Waktu yang mustajab untuk Berdoa
+      </Text>
+      <Text style={styles.tip}>
+        1. Setelah Sholat Malam
+      </Text>
+      <Text style={styles.tip}>
+        2. Saat Hari Jumat 
+      </Text>
+      <Text style={styles.tip}>
+        3. Saat Malam Lailatul Qadar
+      </Text>
+      <Text style={styles.tip}>
+        4. Saat Hujan Turun
+      </Text>
+      <Text style={styles.tip}>
+        5. Saat Antara Adzan dan Iqomah
+      </Text>
     </View>
   );
 };

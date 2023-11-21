@@ -4,7 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import AppNavigator from './AppNavigator';
 import Motivate from './pages/Motivate';
-import FoodRecipe from './pages/DoaScreen';
+import DaftarDoa from './pages/DoaScreen';
 import DetailDoa from './pages/DetailDoa';
 
 
@@ -15,7 +15,7 @@ const MainNavigator = () => {
     <Stack.Navigator>
       <Stack.Screen name="The Incridible Of Doa" component={AppNavigator} />
       <Stack.Screen name="Motivate" component={Motivate} />
-      <Stack.Screen name="FoodRecipe" component={FoodRecipe} />
+      <Stack.Screen name="Daftar Doa" component={DaftarDoa} />
       <Stack.Screen name="DetailDoa" component={DetailDoa} />
     </Stack.Navigator>
   );

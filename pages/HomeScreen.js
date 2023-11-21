@@ -11,7 +11,7 @@ const HomeScreen = () => {
         style={styles.image}
       />
       <Text style={styles.description}>
-        The Incridible Of Doa merupakan aplikasi untuk membantu dalam.
+      The INCREDIBLE OF DOA merupakan aplikasi yang membantu seseorang dalam membaca/menghafal/memahami doa-doa sehari.
       </Text>
       {/* Konten tambahan dari halaman Home */}
     </View>

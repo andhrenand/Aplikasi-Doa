@@ -10,17 +10,17 @@ const Screen3 = () => {
     navigation.navigate('Motivate'); // Pindah ke halaman Tips Menaikan Berat Badan
   };
 
-  const goToFoodRecipe = () => {
-    navigation.navigate('FoodRecipe'); // Pindah ke halaman Resep Makanan
+  const goToDaftarDoa = () => {
+    navigation.navigate('Daftar Doa'); // Pindah ke halaman Resep Makanan
   };
 
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Screen 3</Text>
       <TouchableOpacity style={styles.button} onPress={goToMotivate}>
-        <Text style={styles.buttonText}>TIPS & TRICK Menambah Iman</Text>
+        <Text style={styles.buttonText}>Tips Berdoa Dan Manfaat Berdoa</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={styles.button} onPress={goToFoodRecipe}>
+      <TouchableOpacity style={styles.button} onPress={goToDaftarDoa}>
         <Text style={styles.buttonText}>Kumpulan Doa</Text>
       </TouchableOpacity>
     </View>
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   button: {
-    backgroundColor: '#3498db',
+    backgroundColor: '#1f1f1e',
     padding: 10,
     borderRadius: 5,
     marginVertical: 10,
@@ -48,6 +48,7 @@ const styles = StyleSheet.create({
   buttonText: {
     color: '#fff',
     fontSize: 16,
+    textAlign: 'center',
   },
 });
 
