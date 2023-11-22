@@ -21,7 +21,7 @@ const Screen3 = () => {
         <Text style={styles.buttonText}>Tips Berdoa Dan Manfaat Berdoa</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={goToDaftarDoa}>
-        <Text style={styles.buttonText}>Kumpulan Doa</Text>
+        <Text style={styles.buttonText}>Daftar Doa</Text>
       </TouchableOpacity>
     </View>
   );
